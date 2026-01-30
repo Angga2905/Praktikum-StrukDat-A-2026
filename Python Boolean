@@ -1,0 +1,19 @@
+#boolean 
+print(25 > 21)
+print(21 == 21)
+print(21 < 25)
+
+a = 2521
+b = 6767
+
+if b > a:
+  print("b lebih besar dari a")
+else:
+  print("b tidak lebih besar dar a")
+
+#Evaluate
+x = "Angga"
+y = 2521
+
+print(bool(x))
+print(bool(y))
