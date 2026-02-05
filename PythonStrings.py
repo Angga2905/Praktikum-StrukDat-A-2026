@@ -1,0 +1,17 @@
+#string
+print("Hai Pria Sigma")
+
+#quotes inside quotes
+print("Angga itu sangat 'Sigma'")
+print('Angga itu sangat "Sigma"')
+
+#assign to variable
+a = "Sigma"
+print(a)
+
+#multiline
+a = """Nama saya Angga,
+Saya sangat suka belajar pemrograman,
+walaupun melelahkan dan tugasnya banyak
+tetapi saya senang."""
+print(a)

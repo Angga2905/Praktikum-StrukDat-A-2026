@@ -1,0 +1,105 @@
+#deklarasi
+x = 1
+y = "guatuh"
+print(x)
+print(y)
+
+#change type
+x = 10
+x = "ikal"
+print(x)
+
+#Casting
+x = str(10)    # x will be '10'
+y = int(10)    # y will be 10
+z = float(10)  # z will be 10.0
+
+#Get the type
+x = 5
+y = "Angga"
+print(type(x))
+print(type(y))
+
+#Double Quotes
+x = "Angga"
+# is the same as
+x = 'Angga'
+
+#Case Sensitive
+a = 2521
+A = "Angga"
+#A will not overwrite a
+
+#Variable Names
+myvar = "Angga"
+my_var = "Angga"
+_my_var = "Angga"
+myVar = "Angga"
+MYVAR = "Angga"
+myvar2 = "Angga"
+
+#Camel Case
+myNameIs = "Angga"
+#Pascal Case
+MyNameIs = "Angga"
+#Snake Case
+my_name_is = "Angga"
+
+#Multiple Value
+x, y, z = "Angga", "Fachrul", "Gama"
+print(x)
+print(y)
+print(z)
+
+#One Value to Multiple Variables
+x = y = z = "Angga"
+print(x)
+print(y)
+print(z)
+
+#Unpack a Collection
+fruits = ["Angga", "Fachrul", "Gama"]
+x, y, z = "kings"
+print(x)
+print(y)
+print(z)
+
+#Output Variable
+x = "Angga sangat sigma"
+print(x)
+
+x = "Angga"
+y = "sangat"
+z = "sigma"
+print(x, y, z)
+
+x = "Angga "
+y = "sangat "
+z = "sigma"
+print(x + y + z)
+
+x = 21
+y = 4
+print(x + y)
+
+x = 25
+y = "Angga"
+print(x, y)
+
+#Global Variables
+x = "sigma"
+
+def myfunc():
+  print("Angga sangat " + x)
+
+myfunc()
+
+#The global Keyword
+def myfunc():
+  global x
+  x = "sigma"
+
+myfunc()
+
+print("Angga sangat " + x)
+

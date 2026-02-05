@@ -1,0 +1,30 @@
+x = 25    #int
+y = 25.21  #float
+z = 25j   #complex
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Conversion
+x = 25    # int
+y = 25,21  # float
+z = 25j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+
